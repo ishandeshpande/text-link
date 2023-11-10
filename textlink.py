@@ -33,3 +33,4 @@ if platform == 'email':
                 linktocopy = f"mailto:{email}?subject={subject}&body={body}"
                 st.code(linktocopy, language="css")
                 st.balloons()
+st.write("built by [ishan deshpande](https://twitter.com/_ishand_)")
