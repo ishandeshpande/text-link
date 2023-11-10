@@ -3,7 +3,7 @@ import re
 import pandas as pd
 import numpy as np
 
-st.title('generate a :sms or :mailto')
+st.title('generate a \:sms or \:mailto')
 platform = st.selectbox(
     'what would you like?',
     ('sms', 'email'))
