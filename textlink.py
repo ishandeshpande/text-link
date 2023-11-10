@@ -3,8 +3,10 @@ import re
 import pandas as pd
 import numpy as np
 
-st.title('generate a link for people to text/email you')
-platform = st.radio("choose your platform", ['sms', 'email'])
+st.title('generate a :sms or :mailto')
+platform = st.selectbox(
+    'what would you like?',
+    ('sms', 'email'))
 
 if platform == 'sms':
     number = st.text_input("input your phone number here with area code:")
